@@ -6,9 +6,7 @@
 - Core Web Vitals are the subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools. Each of the Core Web Vitals represents a distinct facet of the user experience, is measurable in the field, and reflects the real-world experience of a critical user-centric outcome.
 
 - The current set focuses on three aspects of the user experience—loading, interactivity, and visual stability—and includes the following metrics (and their respective thresholds):
-![largest-contentful-paint-ea2e6ec5569b6](https://github.com/user-attachments/assets/223978b8-b0f7-4d94-9a8c-d67e7b50ae7b)
-![inp-thresholds](https://github.com/user-attachments/assets/b57af3e9-35dc-4ed3-8168-5520f8a3d330)
-![cumulative-layout-shift-t-5d49b9b883de4](https://github.com/user-attachments/assets/65edd441-b5a4-495b-b61a-e6899a6149ae)
+
 
 - ***Largest Contentful Paint (LCP)***: measures loading performance. To provide a good user experience, LCP should occur within 2.5 seconds of when the page first starts loading.
 - ***Interaction to Next Paint (INP)***: measures interactivity. To provide a good user experience, pages should have a INP of 200 milliseconds or less.
