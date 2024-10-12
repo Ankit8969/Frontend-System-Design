@@ -1,3 +1,4 @@
+
 # Progressive Web Apps
 Progressive Web Apps (PWAs) are web applications that use modern web capabilities to deliver an app-like experience to users. They combine the best of both web and mobile apps, 
 offering features such as offline access, push notifications, fast loading times, and the ability to be added to the home screen like native apps.
@@ -12,3 +13,14 @@ Once installed, a PWA looks like any other app, specifically:***
 - It opens in a standalone window, wholly separated from a browser's user interface.
 - It has access to higher levels of integration with the OS, for example, URL handling or title bar customization.
 - It works offline.
+
+## Bringing the best of both worlds
+| Web | Platform apps |
+| --------------- | --------------- |
+| Linkability     | Offline-capable     | 
+| Accessible by default     | High performance     | 
+| Ubiquitous     | Rich and reliable     |
+| Easy to Deploy     | Device Integration     |
+| Easy to Update     | Standalone experience     |
+| Everyone can publish     | Installed Icon     |
+| Ubiquitous     | Rich and reliable     |
