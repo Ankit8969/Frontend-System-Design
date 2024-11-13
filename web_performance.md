@@ -47,7 +47,7 @@ The sequence of steps the browser takes before performing that initial render is
 
 ![image](https://github.com/user-attachments/assets/ade1fbc5-cce5-4623-922b-e6751a71545e)
 
-### What resources are on the critical rendering path?
+## What resources are on the critical rendering path?
 The browser needs to wait for some critical resources to download before it can complete the initial render. These resources include:
 - Part of the HTML.
 - Render-blocking CSS in the <head> element.
@@ -73,7 +73,7 @@ However, not all resources referenced in the <head> element are strictly necessa
 critical rendering path, you need to understand render-blocking and parser-blocking CSS and JavaScript.
 ```
 
-### Render-blocking resources
+## Render-blocking resources
 Some resources are deemed so critical that the browser pauses page rendering until it has dealt with them. CSS falls into this category by default.
 
 When a browser sees CSS—whether it's inline CSS in a <style> element, or an externally referenced resource specified by a 'link rel=stylesheet href="..."'
@@ -81,10 +81,23 @@ element—the browser avoids rendering any more content until it has completed d
 
 
 
+## media="print"
 
+The print media type in CSS refers to a set of styles specifically designed for printed media, such as when a webpage is printed onto paper. By using @media print in CSS, you can define styles that will only apply when the page is printed, allowing you to adjust the layout, hide elements that are unnecessary on paper (like navigation bars), and optimize font sizes or colors for readability on a physical page.
 
+```
+@media print {
+    body {
+        font-size: 12pt; /* Increase font size for print */
+        color: black; /* Set color for best print contrast */
+    }
+    .navbar, .footer {
+        display: none; /* Hide navigation and footer for print */
+    }
+}
 
-
+```
+This lets you control how the printed version of your webpage looks, making it more reader-friendly and visually clean without unnecessary elements that are useful on-screen but not on paper.
 
 
 
